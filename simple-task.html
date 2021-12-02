@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Манулы =)</title>
+  </head>
+  <body onload="legendaryManulCounter(1, 65537)" style="text-align: center">
+    <h1>
+      Кол-во манулов:
+      <h1 id="dat"></h1>
+    </h1>
+    <img
+      src="https://pa1.narvii.com/7427/3a2df985d58714f1a266600aa445b55128c1adefr1-380-213_hq.gif"
+      alt="404 error"
+      width="1000"
+    />
+    <script>
+      function legendaryManulCounter(min, max) {
+        document.getElementById("dat").innerHTML =
+          Math.floor(Math.random() * (max - min + 1)) + min;
+      }
+    </script>
+  </body>
+</html>
